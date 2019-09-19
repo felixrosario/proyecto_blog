@@ -1,0 +1,19 @@
+body{
+  background-color: #009999;
+}
+
+.logo{
+  width: 7%;
+}
+
+.header{
+  background-color: white;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.logo-social{
+  width: 31%;
+}
+
+@media (max-width:) {
