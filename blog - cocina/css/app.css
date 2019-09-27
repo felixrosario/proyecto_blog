@@ -1,0 +1,53 @@
+body{
+  background: url(../img/fondo-img.jpg);
+}
+
+.contenedor{
+ margin-left: 10vw;
+ margin-right: 10vw;
+ background-color: rgba(255, 255, 255, .4);
+}
+
+.header{
+
+}
+
+.encabezado{
+  border-right: 1px solid white;
+}
+
+.izq{
+  background-color: rgba(153, 204, 205);
+}
+
+.der{
+  background-color: rgba(255, 178, 102);
+}
+
+.favs{
+  color: #2ba6cb;
+  margin-top: 1vh;
+}
+.imagen-fav{
+  width: 70px;
+  height: 100px;
+}
+@media (max-width:640px) {
+
+  hr{
+    display: none;
+  }
+  
+  .contenedor{
+   margin-left: 0vw;
+   margin-right: 0vw;
+
+  }
+  .header{
+    display: none;
+  }
+
+  .izq{
+    display: none;
+  }
+}
