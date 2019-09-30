@@ -8,9 +8,6 @@ body{
  background-color: rgba(255, 255, 255, .4);
 }
 
-.header{
-
-}
 
 .encabezado{
   border-right: 1px solid white;
@@ -32,12 +29,22 @@ body{
   width: 70px;
   height: 100px;
 }
+
+.fecha{
+  color: #FF3333;
+
+}
+
+.comentarios{
+  background-color: inherit;
+}
+
 @media (max-width:640px) {
 
-  hr{
+  .hr1{
     display: none;
   }
-  
+
   .contenedor{
    margin-left: 0vw;
    margin-right: 0vw;
