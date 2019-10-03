@@ -1,7 +1,20 @@
 body{
   background: url(../img/fondo-img.jpg);
+  background-repeat: round;
 }
 
-.logo{
-  width: 200px;
+
+.social{
+  width: 55px;
 }
+
+/* label color */
+   .input-field label {
+     color: #000000;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #000000;
+   }
+
+  
