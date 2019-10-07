@@ -1,6 +1,6 @@
 body{
   background: url(../img/fondo-img.jpg);
-  background-repeat: round;
+  background-attachment: fixed;
 }
 
 
@@ -17,4 +17,14 @@ body{
      color: #000000;
    }
 
-  
+.autor{
+  text-align: center;
+}
+
+.samana{
+  text-align: right;
+}
+
+.foto{
+  width: 150px;
+}

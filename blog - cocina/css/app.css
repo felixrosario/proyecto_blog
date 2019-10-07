@@ -1,5 +1,6 @@
 body{
   background: url(../img/fondo-img.jpg);
+  background-attachment: fixed;
 }
 
 .contenedor{
